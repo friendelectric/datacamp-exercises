@@ -81,3 +81,4 @@ randIndex(ct.km)
 # * Would you consider this a good clustering?
 
 clusplot(dist(data), diss=TRUE, fit.km$cluster, color=TRUE, shade=TRUE)
+#     - Looks like a good fit.  
